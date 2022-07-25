@@ -1,0 +1,9 @@
+/* #tablee {
+    width: 90%;
+} */
+table, th, td {
+    border:2px solid green;
+  }
+  /* .border {
+    border: 2px solid yellow;
+  } */

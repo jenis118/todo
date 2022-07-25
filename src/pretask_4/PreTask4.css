@@ -1,0 +1,19 @@
+#large {
+    background-color: red;
+    color: white;
+}
+#mideum {
+    background-color: green;
+    color: white;
+}
+#little {
+    background-color: yellow;
+    color: white;
+}
+#small {
+    background-color: pink;
+    color: white;
+}
+.Red {
+    background-color: red;
+}

@@ -1,0 +1,204 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+ */
+/* #Main {
+  text-align: center;
+  border: 2px solid green;
+  width: 150px;
+} */
+
+.Rain {
+  text-align: center;
+  background-color: aqua;
+  height: 100%;
+  padding-top: 100px;
+}
+
+/* #root {
+  background-color: aqua;
+  height: 1000%;
+} */
+
+#App {
+  /* text-align: center; */
+  height: 650px;
+  width: 550px;
+  margin: 115px auto;
+  background-color: black;
+  /* border: 2px solid white; */
+  border-radius: 17px;
+  overflow: auto;
+
+}
+
+body {
+  /* background-color: blue; */
+  background-image: linear-gradient(to right, #2D14FE , #5761FF);
+  /* text-align: center; */
+}
+
+#Headline {
+  color: aliceblue;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.inputTodo {
+  margin: auto;
+  margin-top: 30px;
+  /* height: 48px; */
+  width: 440px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  display: flex;
+}
+
+.AddTodo {
+  height: 48px;
+  width: 333px;
+  /* padding-top: 13px;
+  color: white;
+  padding-left: 15px; */
+  
+  /* border: 2px solid yellow; */
+}
+.inputbox {
+  height: 46px;
+  width: 311px;
+  background-color: black;
+  border: hidden;
+  outline: none;
+  border-radius: 15px;
+  /* border-color: blue; */
+  color: white;
+  padding-left: 18px;
+  font-size: 16px;
+}
+::placeholder {
+  color: white;
+}
+/* class="Todobtn" */
+/* .Todobtn { */
+  /* height: 44px;
+  width: 112px; */
+  /* text-align: center; */
+  /* border: 2px solid skyblue; */
+  /* background-color: blue; */
+ /*  padding-top: 13px; */
+ /*  color: white; */
+  /* vertical-align: middle; */
+/* } */
+.Todobtn {
+  border: hidden;
+}
+.btn {
+ /*  background-color: blue; */
+ height: 49px;
+  width: 109px;
+  border: hidden;
+  outline: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 3px;
+  background-image: linear-gradient(to right, blue , #8B00F9);
+}
+/* button:hover {
+  background-color: yellow;
+} */
+#listing {
+  color: white;
+  margin-top: 25px;
+  font-size: 20px;
+}
+#icn {
+  list-style-type: none;
+  margin-top: 11px;
+}
+#newlist {
+  height: 55px;
+  width: 480px;
+  display: flex;
+  /* text-align: center; */
+ /*  vertical-align: middle; */
+ padding-left: 17px;
+  border-radius: 7px;
+  background-color: #5761FF;
+  margin: auto;
+  /* padding-top: 15px; */
+}
+#value {
+  height: 55px;
+  width: 398px;
+  padding-top: 15px;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+p:active {
+  text-decoration-line: line-through;
+}
+#click {
+  height: 25px;
+  width: 10px;
+}
+#dlticn {
+  height: 55px;
+  width: 40px;
+  padding-top: 12px;
+  font-size: 30px;
+}
+.material-icons {
+  cursor: pointer;
+}
+#editicn {
+  height: 55px;
+  width: 45px;
+  padding-top: 17px;
+  font-size: 20px;
+}
+
+
+
+/* PreTask6 */
+.nav {
+  display: flex;
+  border:  2px solid green;
+  background-color: yellow;
+  height: 60px;
+  width: 100%;
+}
